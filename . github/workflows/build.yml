@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Build with Buildozer Action
+      - name: Build with Buildozer
         uses: Kivy-Launcher/buildozer-action@v1.2
         with:
           command: buildozer -v android debug
